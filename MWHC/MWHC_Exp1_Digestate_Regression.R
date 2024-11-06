@@ -2,7 +2,7 @@ library(readxl)
 library(ggplot2)
 library(dplyr)
 
-data <- read_excel("MWHC.xlsx")
+data <- read_excel("MWHC_Exp1_Digestate_Regression.xlsx")
 
 # Factor as categorical
 data$Treatment <- as.factor(data$Treatment)
