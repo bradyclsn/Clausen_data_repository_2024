@@ -2,7 +2,7 @@ library(readxl)
 library(ggplot2)
 library(dplyr)
 
-data <- read_excel("Digestate.xlsx")
+data <- read_excel("Digestate_Exp2_NoFv_RootLength_Regression.xlsx")
 
 # Convert treatment to factor, so it is categorical 
 data$Treatment <- as.factor(data$Treatment)
